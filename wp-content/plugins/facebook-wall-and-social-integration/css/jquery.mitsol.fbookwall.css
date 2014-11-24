@@ -1,0 +1,392 @@
+/*
+# author  Mitsol
+# copyright Copyright (c) 2013 Mitsol - Development Team
+# @license - GPLv2 or later http://www.gnu.org/licenses/old-licenses/gpl-2.0.html 
+# Websites http://extensions.techhelpsource.com 
+ */
+/* global styles */
+.msfb-wall-main a {
+  color:#0088cc;
+  text-decoration:none !important; 
+  font-size:11px !important;
+} 
+.msfb-wall-main a:focus { outline: thin dotted #333; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
+.msfb-wall-main a:hover,.msfb-wall-main a:active, .msfb-wall-main a:focus { outline: 0 !important; }
+.msfb-wall-main a:active {
+  background-color: transparent !important; font-size:11px;
+}
+.msfb-wall-main a:hover,.msfb-wall-main a:focus{ background-color:transparent !important; font-size:11px;text-decoration:underline !important;}
+.msfb-wall-main img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  margin:0; padding:0;
+  vertical-align: middle;
+  border:0;
+  -ms-interpolation-mode: bicubic;
+   box-shadow:none;
+}	 
+/* wall styles */
+.msfb-wall-main .msfb-wall
+{
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;*/
+	font-family: "lucida grande",tahoma,arial,verdana,sans-serif !important; 
+	font-size:13px !important;
+	font-weight: normal;
+	line-height:1.2em !important;	
+	padding:0px 5px 5px 5px; /*scroll bar position fix */ color:#333333;overflow-x:none;	
+}
+.msfb-wall-main .msfb-layout{ background: transparent;margin: 0 8px 8px; /* top right+left bottom*/ overflow: hidden;padding: 5px;width: auto;}
+.msfb-wall-main .msfb-layout .avatar{ float: left; }
+.msfb-wall-main .msfb-wall-box{margin-bottom:7px;border-top:1px solid #eee;padding-top:8px;}	
+.msfb-wall-main .msfb-wall-box-first{ border:0; }	
+.msfb-wall-main .msfb-wall-avatar{ float:left;border:0; }	
+.msfb-wall-main .msfb-wall-data{ /*for when avatar shown */margin-left:60px;
+}
+.msfb-wall-main .msfb-wall-message{display:block;margin-bottom:5px;text-align:left !important;/*new 1.6*/line-height:1.2em; /*new  1.6*/}
+.msfb-wall-main .msfb-wall-message a { line-height:1.2em; /*new  1.6*/ }	
+.msfb-wall-main .msfb-wall-message-from{font-weight:bold;color:#3B5998;text-align:left !important;/*left prob 1.6*/}
+.msfb-wall-main .msfb-wall-date
+{
+	font-size:11px;
+	color:#777;
+	clear:left;
+	display:block;
+	margin:2px 0 5px 0;
+}
+.msfb-wall-main .msfb-wall-icon
+{
+	float:left;
+	margin-right:5px;
+}
+/* wall styles end */
+
+/* responsive styles */
+.msfb-wall-main .msfb-container {
+/*  padding-right: 20px;
+  padding-left: 20px; new*/
+  *zoom: 1;
+}
+.msfb-wall-main .msfb-container:before,.msfb-wall-main 
+.msfb-container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.msfb-wall-main .msfb-container:after {
+  clear: both;
+}
+.msfb-wall-main .msfb-row:before,.msfb-wall-main 
+.msfb-row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.msfb-wall-main .msfb-row:after {
+  clear: both;
+}
+
+.msfb-wall-main .msfb-row [class*="span_len"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.msfb-wall-main .msfb-row [class*="span_len"]:first-child {
+  margin-left: 0;
+}
+.msfb-wall-main .msfb-row .span_len12 {
+  width: 100%;
+  *width: 99.94680851063829%;
+}
+
+.msfb-wall-main .msfb-row .span_len11 {
+  width: 91.48936170212765%;
+  *width: 91.43617021276594%;
+}
+
+.msfb-wall-main .msfb-row .span_len10 {
+  width: 82.97872340425532%;
+  *width: 82.92553191489361%;
+}
+
+.msfb-wall-main .msfb-row .span_len9 {
+  width: 74.46808510638297%;
+  *width: 74.41489361702126%;
+}
+
+.msfb-wall-main .msfb-row .span_len8 {
+  width: 65.95744680851064%;
+  *width: 65.90425531914893%;
+}
+
+.msfb-wall-main .msfb-row .span_len7 {
+  width: 57.44680851063829%;
+  *width: 57.39361702127659%;
+}
+
+.msfb-wall-main .msfb-row .span_len6 {
+  width: 48.93617021276595%;
+  *width: 48.88297872340425%;
+}
+
+.msfb-wall-main .msfb-row .span_len5 {
+  width: 40.42553191489362%;
+  *width: 40.37234042553192%;
+}
+
+.msfb-wall-main .msfb-row .span_len4 {
+  width: 31.914893617021278%;
+  *width: 31.861702127659576%;
+}
+
+.msfb-wall-main .msfb-row .span_len3 {
+  width: 23.404255319148934%;
+  *width: 23.351063829787233%;
+}
+
+.msfb-wall-main .msfb-row .span_len2 {
+  width: 14.893617021276595%;
+  *width: 14.840425531914894%;
+}
+
+.msfb-wall-main .msfb-row .span_len1 {
+  width: 6.382978723404255%;
+  *width: 6.329787234042553%;
+}
+
+/*********************************************************************************************************************************************************************************
+ responsive styles with media queries 
+*********************************************************************************************************************************************************************************/
+@-ms-viewport {
+  width: device-width;
+}
+
+@media (min-width: 1200px) { 
+
+  .msfb-wall-main .msfb-row {
+    width: 100%;
+    *zoom: 1;
+  }
+  .msfb-wall-main .msfb-row:before,
+  .msfb-wall-main .msfb-row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .msfb-wall-main .msfb-row:after {
+    clear: both;
+  }
+  .msfb-wall-main .msfb-row [class*="span_len"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.564102564102564%;
+    *margin-left: 2.5109110747408616%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .msfb-wall-main .msfb-row [class*="span_len"]:first-child {
+    margin-left: 0;
+  }
+  .msfb-wall-main .msfb-row .controls-row [class*="span_len"] + [class*="span_len"] {
+    margin-left: 2.564102564102564%;
+  }
+  .msfb-wall-main .msfb-row .span_len12 {width: 100%;*width: 99.94680851063829%;}
+  .msfb-wall-main .msfb-row .span_len11 {
+    width: 91.45299145299145%;
+    *width: 91.39979996362975%;
+  }
+  .msfb-wall-main .msfb-row .span_len10 {
+    width: 82.90598290598291%;
+    *width: 82.8527914166212%;
+  }
+  .msfb-wall-main .msfb-row .span_len9 {
+    width: 74.35897435897436%;
+    *width: 74.30578286961266%;
+  }
+  .msfb-wall-main .msfb-row .span_len8 {
+    width: 65.81196581196582%;
+    *width: 65.75877432260411%;
+  }
+  .msfb-wall-main .msfb-row .span_len7 {
+    width: 57.26495726495726%;
+    *width: 57.21176577559556%;
+  }
+  .msfb-wall-main .msfb-row .span_len6 {
+    width: 48.717948717948715%;
+    *width: 48.664757228587014%;
+  }
+  .msfb-wall-main .msfb-row .span_len5 {
+    width: 40.17094017094017%;
+    *width: 40.11774868157847%;
+  }
+  .msfb-wall-main .msfb-row .span_len4 {
+    width: 31.623931623931625%;
+    *width: 31.570740134569924%;
+  }
+  .msfb-wall-main .msfb-row .span_len3 {
+    width: 23.076923076923077%;
+    *width: 23.023731587561375%;
+  }
+  .msfb-wall-main .msfb-row .span_len2 {
+    width: 14.52991452991453%;
+    *width: 14.476723040552828%;
+  }
+  .msfb-wall-main .msfb-row .span_len1 {
+    width: 5.982905982905983%;
+    *width: 5.929714493544281%;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+ 
+  .msfb-wall-main .msfb-row {
+    width: 100%;
+    *zoom: 1;
+  }
+  .msfb-wall-main .msfb-row:before,
+  .msfb-wall-main .msfb-row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .msfb-wall-main .msfb-row:after {
+    clear: both;
+  }
+  .msfb-wall-main .msfb-row [class*="span_len"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.7624309392265194%;
+    *margin-left: 2.709239449864817%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .msfb-wall-main .msfb-row [class*="span_len"]:first-child {
+    margin-left: 0;
+  }  
+  .msfb-wall-main .msfb-row .span_len12 {
+    width: 100%;
+    *width: 99.94680851063829%;
+  }
+  .msfb-wall-main .msfb-row .span_len11 {
+    width: 91.43646408839778%;
+    *width: 91.38327259903608%;
+  }
+  .msfb-wall-main .msfb-row .span_len10 {
+    width: 82.87292817679558%;
+    *width: 82.81973668743387%;
+  }
+  .msfb-wall-main  .msfb-row .span_len9 {
+    width: 74.30939226519337%;
+    *width: 74.25620077583166%;
+  }
+  .msfb-wall-main  .msfb-row .span_len8 {
+    width: 65.74585635359117%;
+    *width: 65.69266486422946%;
+  }
+  .msfb-wall-main  .msfb-row .span_len7 {
+    width: 57.18232044198895%;
+    *width: 57.12912895262725%;
+  }
+  .msfb-wall-main  .msfb-row .span_len6 {
+    width: 48.61878453038674%;
+    *width: 48.56559304102504%;
+  }
+  .msfb-wall-main  .msfb-row .span_len5 {
+    width: 40.05524861878453%;
+    *width: 40.00205712942283%;
+  }
+  .msfb-wall-main  .msfb-row .span_len4 {
+    width: 31.491712707182323%;
+    *width: 31.43852121782062%;
+  }
+  .msfb-wall-main  .msfb-row .span_len3 {
+    width: 22.92817679558011%;
+    *width: 22.87498530621841%;
+  }
+  .msfb-wall-main  .msfb-row .span_len2 {
+    width: 14.3646408839779%;
+    *width: 14.311449394616199%;
+  }
+  .msfb-wall-main  .msfb-row .span_len1 {
+    width: 5.801104972375691%;
+    *width: 5.747913483013988%;
+  }  
+}
+
+@media (max-width: 767px) {
+  .msfb-wall-main .msfb-container {
+    padding: 0;
+  } 
+  .msfb-wall-main .msfb-row {
+    width: 100%;
+  }
+  .msfb-wall-main [class*="span_len"],
+  .msfb-wall-main .msfb-row [class*="span_len"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .msfb-wall-main .span_len12,
+  .msfb-wall-main .msfb-row .span_len12 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+@media (max-width: 480px) {   
+}
+@media (max-width: 979px) {   
+}
+@media (min-width: 980px) { 
+}
+@media print {
+  * {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+}
+
+
+
