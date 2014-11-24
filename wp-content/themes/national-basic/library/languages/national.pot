@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: National Basic\n"
+"POT-Creation-Date: 2014-10-06 10:17-0500\n"
+"PO-Revision-Date: 2014-10-06 10:17-0500\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+msgid "Tag Archive for %s"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:35
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid "1 comment for &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments for &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:9
+#, php-format
+msgid "%s Aside"
+msgstr ""
+
+#: content-aside.php:12 content-audio.php:12 content-gallery.php:12
+#: content-image.php:16 content-link.php:12 content-quote.php:11
+#: content-status.php:18 content-video.php:12 content.php:51 functions.php:373
+#: page.php:25
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-footer.php:10 image.php:50
+msgid "Pages:"
+msgstr ""
+
+#: content-footer.php:11
+msgid "Tags:"
+msgstr ""
+
+#: content-footer.php:12 functions.php:327 image.php:51
+msgid "Edit"
+msgstr ""
+
+#: content-header.php:27 content.php:28
+msgid "0 Comments"
+msgstr ""
+
+#: content-header.php:27 content.php:28
+msgid "1 Comment"
+msgstr ""
+
+#: content-header.php:27 content.php:28
+msgid "% Comments"
+msgstr ""
+
+#: content-header.php:32 content.php:42
+#, php-format
+msgid "by %s on %s"
+msgstr ""
+
+#: content-header.php:33 content.php:43
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: content-link.php:9
+#, php-format
+msgid "%s Link"
+msgstr ""
+
+#: content-none.php:9
+msgid "Nothing found"
+msgstr ""
+
+#: content-none.php:14
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-status.php:9
+#, php-format
+msgid "%s Status"
+msgstr ""
+
+#: content-status.php:15
+#, php-format
+msgid "Posted on %1$s at %2$s"
+msgstr ""
+
+#: content.php:25
+msgid "Posted in "
+msgstr ""
+
+#: footer.php:18
+#, php-format
+msgid "Designed by %s."
+msgstr ""
+
+#: functions.php:65
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:90
+msgid "Default Header 1"
+msgstr ""
+
+#: functions.php:186
+msgid "First Sidebar"
+msgstr ""
+
+#: functions.php:188
+msgid ""
+"This is the first sidebar. It won&rsquo;t appear on the home page unless you "
+"set a static front page."
+msgstr ""
+
+#: functions.php:196
+msgid "Jumbo Headline"
+msgstr ""
+
+#: functions.php:198
+msgid ""
+"Area on the home page below the large header image. Designed specifically "
+"for one text widget. "
+msgstr ""
+
+#: functions.php:206
+msgid "Home Page Top Area"
+msgstr ""
+
+#: functions.php:208
+msgid ""
+"Area on the home page above the main content. Designed specifically for four "
+"Icon & Text widgets. Add at least one widget to make it appear."
+msgstr ""
+
+#: functions.php:216
+msgid "Footer Notice"
+msgstr ""
+
+#: functions.php:218
+msgid ""
+"This is the footer notice area. It works best with a copyright notice or a "
+"banner ad."
+msgstr ""
+
+#: functions.php:246
+msgid "Posts navigation"
+msgstr ""
+
+#: functions.php:248
+msgid "<span class=\"sr-only\">Older posts</span>"
+msgstr ""
+
+#: functions.php:252
+msgid "<span class=\"sr-only\">Newer posts</span>"
+msgstr ""
+
+#: functions.php:286
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:326
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:331
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:351
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:351
+msgid "(edit)"
+msgstr ""
+
+#: functions.php:613
+#, php-format
+msgid "%1$s search results for \"%2$s\""
+msgstr ""
+
+#: header.php:34
+msgid "Main menu"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:57 single.php:17
+msgid "Post navigation"
+msgstr ""
+
+#: image.php:58
+msgid "<span class=\"meta-nav\">&larr;</span> Previous Image"
+msgstr ""
+
+#: image.php:59
+msgid "Next Image <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/customizer.php:56
+msgid "All"
+msgstr ""
+
+#: library/customizer.php:123
+msgid "Layout"
+msgstr ""
+
+#: library/customizer.php:135
+msgid "Site Width"
+msgstr ""
+
+#: library/customizer.php:141
+msgid "1200px"
+msgstr ""
+
+#: library/customizer.php:142
+msgid "992px"
+msgstr ""
+
+#: library/customizer.php:167
+msgid "Main Content Width"
+msgstr ""
+
+#: library/customizer.php:183
+msgid "Left"
+msgstr ""
+
+#: library/customizer.php:184
+msgid "Right"
+msgstr ""
+
+#: library/customizer.php:188
+msgid "Sidebar Layout"
+msgstr ""
+
+#: library/preview-pro.php:18
+msgid "Upgrade to full version"
+msgstr ""
+
+#: library/preview-pro.php:18
+#, php-format
+msgid "Upgrade %s"
+msgstr ""
+
+#: library/preview-pro.php:61
+#, php-format
+msgid ""
+"Take your site to the next level with the full version of %s. Check out some "
+"of the advanced features that'll give you more control over your site's "
+"layout and design."
+msgstr ""
+
+#: library/preview-pro.php:64
+msgid "Features"
+msgstr ""
+
+#: library/preview-pro.php:68
+msgid "Content Slider"
+msgstr ""
+
+#: library/preview-pro.php:72
+msgid "Focus on What's Important"
+msgstr ""
+
+#: library/preview-pro.php:73
+#, php-format
+msgid ""
+"The most important information on your site should be at the top. That's why "
+"%s offers a featured slider directly below your site title. Get your point "
+"across as soon as your site loads."
+msgstr ""
+
+#: library/preview-pro.php:74
+msgid ""
+"Use the Content Slider admin page to create/edit each custom slide or "
+"feature your latest posts by default."
+msgstr ""
+
+#: library/preview-pro.php:79
+msgid "Grid Page Template"
+msgstr ""
+
+#: library/preview-pro.php:83
+msgid "Line Up Your Posts"
+msgstr ""
+
+#: library/preview-pro.php:84
+msgid ""
+"Why display your posts in a single column when you can take advantage of the "
+"included grid page template?"
+msgstr ""
+
+#: library/preview-pro.php:85
+msgid "Each post will appear as part of the three columns grid."
+msgstr ""
+
+#: library/preview-pro.php:90
+msgid "Social Menu"
+msgstr ""
+
+#: library/preview-pro.php:94
+msgid "Let's Get Social!"
+msgstr ""
+
+#: library/preview-pro.php:95
+msgid ""
+"Establish your online presense by letting your visitors join your social "
+"network. Help them stay up to date on everything you're doing"
+msgstr ""
+
+#: library/preview-pro.php:96
+msgid ""
+"Easily add a social menu by creating links to the most popular social media "
+"websites."
+msgstr ""
+
+#: library/preview-pro.php:101
+msgid "Advanced Color Picker"
+msgstr ""
+
+#: library/preview-pro.php:105
+msgid "So Many Colors to Choose From"
+msgstr ""
+
+#: library/preview-pro.php:106
+#, php-format
+msgid ""
+"Sometimes the default colors just aren't working for you. In %s you can use "
+"the advanced color picker to make sure you get the exact colors you want."
+msgstr ""
+
+#: library/preview-pro.php:107
+msgid ""
+"Easily select one of the eight preset colors or dive even deeper into your "
+"customization by using a more specific hex code."
+msgstr ""
+
+#: library/preview-pro.php:112
+msgid "Google Fonts Manager"
+msgstr ""
+
+#: library/preview-pro.php:116
+msgid "Use Any Google Font You Want"
+msgstr ""
+
+#: library/preview-pro.php:117
+msgid ""
+"Web-safe fonts are a thing of the past, so why not try to spice things up a "
+"bit?"
+msgstr ""
+
+#: library/preview-pro.php:118
+msgid ""
+"Choose any Google Fonts to improve your site's typeface readability and make "
+"things look even more amazing."
+msgstr ""
+
+#: library/preview-pro.php:123
+msgid "Extended Widgetized Footer"
+msgstr ""
+
+#: library/preview-pro.php:127
+msgid "Add More Widgets"
+msgstr ""
+
+#: library/preview-pro.php:128
+msgid ""
+"If you need to include more widgets on your site, take advantage of the "
+"Extended Footer."
+msgstr ""
+
+#: library/preview-pro.php:129
+msgid ""
+"Use the Theme Options customizer to set the number of columns you want to "
+"appear. You can also customize your site's copyright notice."
+msgstr ""
+
+#: library/preview-pro.php:134
+msgid "Even More Theme Options"
+msgstr ""
+
+#: library/preview-pro.php:137
+msgid "Full Width Posts/Pages"
+msgstr ""
+
+#: library/preview-pro.php:138
+msgid ""
+"Each page/post has an option to remove both sidebars so you can use the full "
+"width of your site to display whatever you want."
+msgstr ""
+
+#: library/preview-pro.php:140
+msgid "Multiple Sidebar Layouts"
+msgstr ""
+
+#: library/preview-pro.php:141
+msgid ""
+"Sometimes one sidebar just isn't enough, so add a second one and place it "
+"where you want."
+msgstr ""
+
+#: library/preview-pro.php:145
+msgid "Bootstrap Shortcodes"
+msgstr ""
+
+#: library/preview-pro.php:146
+#, php-format
+msgid ""
+"Shortcodes are awesome and easy to use. That's why %s comes with a bunch, "
+"like a slideshow carousel, alert boxes and more."
+msgstr ""
+
+#: library/preview-pro.php:148
+msgid "Import/Export Tool"
+msgstr ""
+
+#: library/preview-pro.php:149
+msgid ""
+"Once you've set up your site exactly how you want, you can easily export the "
+"Theme Options and Custom CSS for safe keeping."
+msgstr ""
+
+#: library/preview-pro.php:154
+#, php-format
+msgid "Buy %s Now &rarr;"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:9
+msgid "Custom Text Widget with Image and Icon"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:11
+msgid "Image, Icon & Text"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:83
+msgid "Title:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:86
+msgid "Icon:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:88
+msgid "View Icons"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:88
+msgid "Remove Icon"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:92
+msgid "Image:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:94
+msgid "Select Image"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:94
+msgid "Remove Image"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:97
+msgid "URL:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:100
+msgid "Button Text:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:105
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: sidebar.php:13
+msgid "Default Widget"
+msgstr ""
+
+#: sidebar.php:14
+#, php-format
+msgid ""
+"This is just a default widget. It'll disappear as soon as you add your own "
+"widgets on the %sWidgets admin page%s."
+msgstr ""
+
+#: sidebar.php:16
+msgid "Below is an example of an unordered list."
+msgstr ""
+
+#: sidebar.php:18
+msgid "List item one"
+msgstr ""
+
+#: sidebar.php:19
+msgid "List item two"
+msgstr ""
+
+#: sidebar.php:20
+msgid "List item three"
+msgstr ""
+
+#: sidebar.php:21
+msgid "List item four"
+msgstr ""
+
+#: single.php:18
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: single.php:19
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

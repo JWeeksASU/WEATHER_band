@@ -1,0 +1,27 @@
+Changelog
+
+17 Nov 2014 - 1.16
+--------------------------------------
+- small addition to style.css
+
+
+17 Nov 2014 - 1.15
+--------------------------------------
+- added jquery.sticky.js
+- changed old sticky menu js code from scripts.js to jquery.sticky
+- changed CSS for the sticky menu
+- added license details in readme.txt for jquery.sticky.js
+- added category_name argument for services/testimonials/projects/employees widgets
+
+11 Nov 2014
+--------------------------------------
+- ADDED: page templates, single page header image ability, visual styles for Page Builder rows
+- FIXED: various issues in CSS
+- switched from jQuery Waypoints sticky to custom code
+- removed waypoints-sticky.js and waypoints-sticky.min.js
+- bumped version number
+
+30 Oct 2014
+--------------------------------------
+- Fix for Safari layout issue
+- Created changelog.txt
