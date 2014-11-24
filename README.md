@@ -12,3 +12,11 @@ Work will be continuing on the site, as requirements are refined by the client. 
 
 Expected launch December 2014
 
+#####TO DO:
+  1. Setup Facebook App to allow embeded wall posts to News page
+  
+  2. Setup new media player plugin
+
+  3. Setup External links for "Friends of Weather"
+  
+  4. Get Client to register domain
