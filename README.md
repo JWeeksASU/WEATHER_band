@@ -7,11 +7,6 @@ I found wWordpress to be similair to drupal 7, but with better development contr
 
 Work will be continuing n the site, as requirements are refined by the client. The development site can be viewed at: 
 
-[WEATHER band site](http://dev-weather-band.pantheon.io/) 
+###[WEATHER band site](http://dev-weather-band.pantheon.io/) 
 <br />url: http://dev-weather-band.pantheon.io/
-
-###Screenshots
-
-
-
 
